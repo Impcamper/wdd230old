@@ -1,4 +1,6 @@
 function getupdatedate(){
     var x = document.lastModified;
-            document.getElementById("date").textContent = `Last Updated: ${x}`;
+        part = document.getElementById("date");
+        part.textContent = `Last Updated: ${x}`;
+
 }
