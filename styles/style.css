@@ -1,4 +1,5 @@
-
+/** font-family: 'Lora', serif;
+font-family: 'Titillium Web', sans-serif;**/
 header div{
     display: flex;
     background-color: aqua;
@@ -8,13 +9,18 @@ header div{
 }
 header h1{
     margin: auto;
+    font-family: 'Titillium Web', sans-serif;
 }
 img{
     height: 350px;
+}
+body{
+    font-family: 'Lora', serif;
 }
 footer{
     margin: 20px;
     text-align: center;
     background-color: aqua;
     border-radius: 20px;
+    font-family: 'Titillium Web', sans-serif;
 }
