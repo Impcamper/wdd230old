@@ -12,6 +12,9 @@ footer{
     border-radius: 20px;
     font-family: 'Titillium Web', sans-serif;
 }
+.mini{
+    background-color: green;
+}
 #idea1, #idea2, #idea3{
     border: 1px solid grey;
 }
