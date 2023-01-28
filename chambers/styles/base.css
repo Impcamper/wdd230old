@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Lora', serif;
+}
+a{
+    font-family: 'Lora', serif;
+}
+header{
+    display: flex;
+   /* background-color: #CE4760;*/
+   background-color: #AB3B50;
+
+}
+.nav{
+    position: relative;
+    display: inline-block;
+    
+}
+.navmenu{
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+.nav:hover .navmenu {display: block;}
