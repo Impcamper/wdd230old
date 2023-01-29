@@ -12,6 +12,19 @@ header{
    /* background-color: #CE4760;*/
    background-color: #AB3B50;
 
+
+}
+body{
+    background-color: #334E58;
+    padding: 0;
+    margin: 0;
+}
+footer{
+    display: flex;
+    /* background-color: #CE4760;*/
+    background-color: #AB3B50;
+    justify-content: center;
+ 
 }
 .nav{
     position: relative;
@@ -23,4 +36,5 @@ header{
     z-index: 1;
     position: absolute;
 }
+
 .nav:hover .navmenu {display: block;}
