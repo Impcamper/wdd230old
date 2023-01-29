@@ -30,9 +30,9 @@ footer{
     background-color: #AB3B50;
     justify-content: center;
 }
-footer div{
+/*footer div{
     border: 1px solid orange;
-}
+}*/
 .preview{
     background-color: white;
     border: 1px solid black;
