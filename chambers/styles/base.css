@@ -11,8 +11,13 @@ header{
     display: flex;
    /* background-color: #CE4760;*/
    background-color: #AB3B50;
-
-
+   justify-content: space-between;
+}
+#home-link{
+    text-decoration: none;
+    font-size: 2em;
+    color: #334E58;
+    float: left;
 }
 body{
     background-color: #334E58;
@@ -24,17 +29,56 @@ footer{
     /* background-color: #CE4760;*/
     background-color: #AB3B50;
     justify-content: center;
- 
+}
+footer div{
+    border: 1px solid orange;
+}
+.preview{
+    background-color: white;
+    border: 1px solid black;
+    padding-right: 8em;
+    padding-bottom: 10em;
+    margin: 5px;
+    display: inline-block;
+}
+.holder{
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+.social{
+    margin-top: .5em;
+    margin-bottom: auto;
+}
+.social img{
+    width: 2em;
 }
 .nav{
     position: relative;
     display: inline-block;
-    
+    margin-top: 1em;
+    margin-bottom: auto;
+}
+.navbutton{
+    border: 1px solid #334E58;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    align-self: center;
 }
 .navmenu{
     display: none;
     z-index: 1;
     position: absolute;
+    background-color: #334E58;
+    border: 2px solid black;
+    box-shadow: 2px 4px 3px black;
+}
+.navmenu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
 }
 
 .nav:hover .navmenu {display: block;}
