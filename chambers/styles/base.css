@@ -13,6 +13,12 @@ header{
    background-color: #AB3B50;
    justify-content: space-between;
 }
+footer{
+    display: flex;
+    /* background-color: #CE4760;*/
+    background-color: #AB3B50;
+    justify-content: center;
+}
 #home-link{
     text-decoration: none;
     font-size: 2em;
@@ -24,11 +30,9 @@ body{
     padding: 0;
     margin: 0;
 }
-footer{
-    display: flex;
-    /* background-color: #CE4760;*/
-    background-color: #AB3B50;
-    justify-content: center;
+#date{
+    border: 2px solid #762836;
+    background-color: #b74c60;
 }
 /*footer div{
     border: 1px solid orange;
@@ -36,8 +40,8 @@ footer{
 .preview{
     background-color: white;
     border: 1px solid black;
-    padding-right: 8em;
-    padding-bottom: 10em;
+    height: 8em;
+    width: 10em;
     margin: 5px;
     display: inline-block;
 }
