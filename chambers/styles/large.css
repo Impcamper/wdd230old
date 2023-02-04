@@ -56,8 +56,8 @@ a div{
 .preview{
     background-color: white;
     border: 1px solid black;
-    height: 8em;
-    width: 10em;
+    height: 10em;
+    width: 90%;
     margin: 5px;
     display: inline-block;
 }
@@ -82,12 +82,13 @@ a div{
     grid-column: 2/4;
 }
 .holder{
-    grid-row: 2/4;
+    grid-row: 2/5;
     grid-column: 4/5;
     background-color: white;
     border: 1px solid black;
     display: inline-block;
     padding: 5px;
+    margin: 5px;
 }
 .social{
     margin-top: .5em;
