@@ -109,7 +109,6 @@ footer{
 #join{
     grid-row: 4/5;
     grid-column: 1/2;
-    height: 10em;
 }
 #news{
     grid-row: 4/5;
@@ -132,6 +131,12 @@ footer{
 #hero img{
     max-width: 100%;
     max-height: auto;
+}
+#weather img{
+    max-width: 50%;
+}
+.holder img{
+    max-width: 20%;
 }
 .social{
     margin: .5em;
