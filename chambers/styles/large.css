@@ -138,7 +138,7 @@ footer{
     float: right;
 }
 #spotlight .preview{
-    box-shadow: 2px 4px 3px black;
+    box-shadow: 2px 4px 3px #334E58;
 }
 .social img{
     width: 2em;
