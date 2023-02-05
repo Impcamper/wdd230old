@@ -6,6 +6,7 @@ p{
 }
 a{
     font-family: 'Lora', serif;
+    text-decoration: none;
 }
 body{
     background-color: #334E58;
@@ -22,8 +23,9 @@ header{
     justify-content: space-between;
     flex-direction: column;
 }
-header img{
+.headerImg  {
     float: left;
+    max-width: 8em;
 }
 footer{
     display: flex;
@@ -44,9 +46,10 @@ footer{
 }
 #trademark{
     text-align: center;
+    border: 2px solid #762836;
+    background-color: #b74c60;
 }
 #home-link{
-    text-decoration: none;
     font-size: 2em;
     color: #334E58;
     float: left;
@@ -55,29 +58,29 @@ footer{
 #date{
     border: 2px solid #762836;
     background-color: #b74c60;
-    
+    text-align: center;
+    padding: 1em;
 }
 /*footer div{
     border: 1px solid orange;
 }*/
 a div{
     background-color: blue;
-    width: 90%;
     height: 2em;
     margin: .5em;
     border-radius: .2em;
 }
 #join a{
-    text-decoration: none;
     color: white;
     text-align: center;
 }
 .preview{
     background-color: white;
-    border: 1px solid black;
-    height: 10em;   
+    border: 1px solid black;   
     margin: 5px;
-    display: inline-block;
+    display: inline-block;  
+    text-align: center;
+    background-color: #BCD8C1;
 }
 #event{
     grid-row: 2;
@@ -95,6 +98,7 @@ a div{
 #join{
     grid-row: 4/5;
     grid-column: 1/2;
+    height: 10em;
 }
 #news{
     grid-row: 4/5;
@@ -103,25 +107,30 @@ a div{
 .holder{
     grid-row: 2/5;
     grid-column: 4/5;
-    background-color: white;
     border: 1px solid black;
-    display: inline-block;
+    display: flex;
     padding: 5px;
     margin: 5px;
+    background-color: #BCD8C1;
+    flex-direction: column;
 }
 #hero h2{
     position: absolute;
 }
+#hero img{
+    max-width: 100%;
+    max-height: auto;
+}
 .social{
-    margin-top: .5em;
-    margin-bottom: auto;
+    margin: .5em;
+    float: right;
 }
 .social img{
     width: 2em;
 }
 .nav{
     position: relative;
-    display: inline-block;
+    
     margin-top: 1em;
     margin-bottom: auto;
     float: right;
@@ -129,7 +138,6 @@ a div{
 .navbutton{
     border: 1px solid #334E58;
     background-color: white;
-    text-decoration: none;
     padding: 10px 20px;
     align-self: center;
 }
@@ -143,7 +151,6 @@ a div{
 }
 .navmenu a{
     color: white;
-    text-decoration: none;
     font-size: 1.7em;
 }
 
