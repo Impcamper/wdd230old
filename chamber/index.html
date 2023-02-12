@@ -32,7 +32,11 @@
 <body>
     <div class="preview" id="hero">
         <h2>Welcome to Shreveport!</h2>
-        <img src="images/Shreveport.png" alt="hero img">
+        <picture>
+            <source media="(min-width: 800px)" src="">
+            <source media="(min-width: 600px)" src="">
+            <img src="images/Shreveport.png" alt="hero img" width="800" height="500">
+        </picture>
         <a href="#">
             <div>Join</div>
         </a>
@@ -48,12 +52,12 @@
     <div class="preview" id="weather">
         <h2>Weather</h2>
         <img src="images/sun.png" alt="Weather icon">
-        <p id="tempature">9°C</p>
-        <h4>Clear</h4>
+        <p id="tempature">42°F</p>
+        <h4 id="conditions">Clear</h4>
         <hr>
         <div>
-            <p>Wind Speed: <span>Null</span></p>
-            <p>Wind Chill: <span>Null</span></p>
+            <p>Wind Speed: <span id="speed">6</span></p>
+            <p>Wind Chill: <span id="chill">Null</span></p>
         </div>
     </div>
     <div class="preview" id="join">
@@ -111,4 +115,5 @@
     </div>
 </footer>
 <script src="scripts/update.js"></script>
+<script src="scripts/windchill.js"></script>
 </html>
