@@ -36,7 +36,9 @@ footer{
     /* background-color: #CE4760;*/
     background-color: #AB3B50;
     flex-direction: column;
-    
+}
+footer div{
+    color: white;
 }
 #info{
     display: flex;
