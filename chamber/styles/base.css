@@ -12,6 +12,7 @@ a{
         display: flex;
         grid-column: 1/2;
        /* background-color: #CE4760;*/
+       color: #E3E3E3;
         background-color: #AB3B50;
         justify-content: space-between;
         flex-direction: column;
@@ -30,6 +31,7 @@ a{
     footer{
         display: flex;
         grid-column: 1/2;
+        color: #E3E3E3;
         /* background-color: #CE4760;*/
         background-color: #AB3B50;
         flex-direction: column;

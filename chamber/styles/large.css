@@ -20,6 +20,7 @@ header{
     display: flex;
     grid-column: 1/5;
    /* background-color: #CE4760;*/
+    color: #E3E3E3;
     background-color: #AB3B50;
     justify-content: space-between;
     flex-direction: column;
@@ -31,7 +32,7 @@ header{
 footer{
     display: flex;
     grid-column: 1/5;
-    color: rgb(219, 219, 219);
+    color: #E3E3E3;
     /* background-color: #CE4760;*/
     background-color: #AB3B50;
     flex-direction: column;
