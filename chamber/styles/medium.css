@@ -41,6 +41,10 @@
             float: right;
             padding-left: 10em;
         }
+        #loc a{
+            text-decoration: none;
+            color: #EBEBEB;
+        }
         #trademark{
             text-align: center;
             border: 2px solid #762836;
