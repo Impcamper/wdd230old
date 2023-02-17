@@ -8,6 +8,7 @@ a{
     font-family: 'Lora', serif;
     text-decoration: none;
 }
+/*@media only screen and(min-width: 720px){*/
 body{
     background-color: #334E58;
     display: grid;
@@ -30,6 +31,7 @@ header{
 footer{
     display: flex;
     grid-column: 1/5;
+    color: rgb(219, 219, 219);
     /* background-color: #CE4760;*/
     background-color: #AB3B50;
     flex-direction: column;
