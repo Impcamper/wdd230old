@@ -20,7 +20,7 @@ header{
     display: flex;
     grid-column: 1/5;
    /* background-color: #CE4760;*/
-    color: #E3E3E3;
+    color: #EBEBEB;
     background-color: #AB3B50;
     justify-content: space-between;
     flex-direction: column;
@@ -32,7 +32,7 @@ header{
 footer{
     display: flex;
     grid-column: 1/5;
-    color: #E3E3E3;
+    color: #EBEBEB;
     /* background-color: #CE4760;*/
     background-color: #AB3B50;
     flex-direction: column;
@@ -54,7 +54,7 @@ footer{
 }
 #home-link{
     font-size: 2em;
-    color: #E3E3E3;
+    color: #EBEBEB;
     float: left;
 }
 

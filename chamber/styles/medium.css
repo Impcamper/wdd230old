@@ -7,7 +7,7 @@
         display: flex;
         grid-column: 1/4;
     /* background-color: #CE4760;*/
-        color: #E3E3E3;
+        color: #EBEBEB;
         background-color: #AB3B50;
         justify-content: space-between;
         flex-direction: column;
@@ -26,7 +26,7 @@
     footer{
         display: flex;
         grid-column: 1/4;
-        color: #E3E3E3;
+        color: #EBEBEB;
         /* background-color: #CE4760;*/
         background-color: #AB3B50;
         flex-direction: column;
@@ -48,7 +48,7 @@
         }
         #home-link{
             font-size: 2em;
-            color: #E3E3E3;
+            color: #EBEBEB;
             float: left;
         }
         
